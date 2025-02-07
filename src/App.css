@@ -1,3 +1,18 @@
+.App {
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light-theme {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.dark-theme {
+  background-color: #333333;
+  color: #ffffff;
+}
+
 .section {
   min-height: 100vh;
   display: flex;
@@ -17,4 +32,31 @@
 #contact {
   background-color: #dee2e6;
 }
+
+.dark-theme #home,
+.dark-theme #about,
+.dark-theme #contact {
+  background-color: #444444;
+}
+.Navbar {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.nav-brand {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
 

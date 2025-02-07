@@ -1,0 +1,53 @@
+.dashboard {
+    padding: 2rem;
+  }
+  
+  .User-app {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .User-app form {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .User-app input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .User-app button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .User-app ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .User-app li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #f8f9fa;
+  }
+  
+  .User-app li.completed span {
+    text-decoration: line-through;
+    color: #6c757d;
+  }
+  
+  .User-app li button {
+    background-color: #dc3545;
+  }
+  
+  
